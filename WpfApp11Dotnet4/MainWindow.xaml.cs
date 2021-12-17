@@ -15,7 +15,7 @@ namespace WpfApp11Dotnet4
             var cfg = Config.ReadConfig();
             if (cfg == null)
             {
-                return;
+                return; 
             }
 
             nameText.Text = cfg.Person.Name;
